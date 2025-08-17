@@ -4,7 +4,7 @@ from flask import Flask, jsonify, request
 
 app = Flask(__name__)
 
-@app.route("/")
+@app.route("/") # Ruta principal
 def home():
     return jsonify({"message": "Bienvenido a la API de Microservicio Base - Grupo 4"})
 
@@ -48,7 +48,7 @@ vender_boleto(user_input)
 def info():
     return jsonify({
         'equipo': 'Grupo 4',
-        'integrantes': ['Angel Jativa', 'Ricardo Penafiel', 'Daniel Quinonez'],
+        'autores': ['Angel Jativa', 'Ricardo Penafiel', 'Daniel Quinonez'],
         'proyecto': 'Microservicio Base - Grupo 4',
         'descripcion':'Este microservicio proporciona una API para gestionar la venta de boletos para un concierto',
     })
