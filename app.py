@@ -25,13 +25,13 @@ for i in range(1, num_boletos + 1):
     }
     boletos.append(boleto)
 
-# Mostrar boletos disponibles
+# Mostrar los boletos disponibles
 print("Boletos disponibles:")
 for b in boletos:
     if not b["vendido"]:
         print(f"{b['id']} - {b['seccion']}")
 
-# Simular venta
+# Simular la venta de boletos
 def vender_boleto(boleto_id):
     for b in boletos:
         if b["id"] == boleto_id and not b["vendido"]:
