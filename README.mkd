@@ -1,3 +1,5 @@
 API tarea Tratamiento de Datos grupo 4
 
 <img width="589" height="334" alt="Compilación" src="https://github.com/user-attachments/assets/682af9f4-5060-4426-9294-3f7234512cda" />
+
+<img width="586" height="106" alt="Comprobación del API home" src="https://github.com/user-attachments/assets/df3ee336-425f-4e22-9f46-0a9e4ef65235" />
