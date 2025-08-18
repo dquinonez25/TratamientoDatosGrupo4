@@ -56,4 +56,4 @@ def info():
 
 if __name__ == "__main__": # Ejecutar la aplicación Flask
    app.run(debug=True, host='0.0.0.0', port=8080) # Permite que la aplicación sea accesible desde cualquier IP en el puerto 8080
-    
+   
