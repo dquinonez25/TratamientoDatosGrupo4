@@ -11,8 +11,8 @@ def home():
 import random
 
 # Crear una lista de boletos (ID, Sección, Estado)
-secciones = ["VIP", "General", "Grada"]
-num_boletos = 100
+secciones = ["VIP", "PALCO", "TRIBUNA"]
+num_boletos = 150
 
 boletos = []
 
@@ -36,11 +36,11 @@ def vender_boleto(boleto_id):
     for b in boletos:
         if b["id"] == boleto_id and not b["vendido"]:
             b["vendido"] = True
-            print(f"Boleto {boleto_id} vendido exitosamente.")
+            print(f"Boleto {boleto_id} vendido exitosamente.") # Marca el boleto como vendido
             return
-    print(f"Boleto {boleto_id} no está disponible.")
+    print(f"Boleto {boleto_id} no está disponible.") #Marca el boleto como no disponible
 
-# Usuario compra un boleto
+# Simula que un usuario compra un boleto
 user_input = input("\nIntroduce el ID del boleto que quieres comprar: ")
 vender_boleto(user_input)
 
